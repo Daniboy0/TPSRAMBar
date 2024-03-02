@@ -1,0 +1,26 @@
+# Configuration for TPSRAMBar plugin
+
+# Configuration for the TPS boss bar
+tps-bar:
+  # Color of the TPS boss bar. Available options: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+  color: GREEN
+  # Text color of the TPS boss bar. Available options: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+  text-color: WHITE
+  # Message displayed in chat when the TPS bar is enabled for a player
+  enabled-message: "&aTPS bar has been enabled for you."
+  # Message displayed in chat when the TPS bar is disabled for a player
+  disabled-message: "&cTPS bar has been disabled for you."
+
+# Configuration for the RAM boss bar
+ram-bar:
+  # Color of the RAM boss bar. Available options: BLUE, GREEN, PINK, PURPLE, RED, WHITE, YELLOW
+  color: BLUE
+  # Text color of the RAM boss bar. Available options: BLACK, DARK_BLUE, DARK_GREEN, DARK_AQUA, DARK_RED, DARK_PURPLE, GOLD, GRAY, DARK_GRAY, BLUE, GREEN, AQUA, RED, LIGHT_PURPLE, YELLOW, WHITE
+  text-color: WHITE
+  # Message displayed in chat when the RAM bar is enabled for a player
+  enabled-message: "&aRAM bar has been enabled for you."
+  # Message displayed in chat when the RAM bar is disabled for a player
+  disabled-message: "&cRAM bar has been disabled for you."
+
+# Message displayed in chat when the configuration is reloaded
+reload-message: "&aConfiguration reloaded."
